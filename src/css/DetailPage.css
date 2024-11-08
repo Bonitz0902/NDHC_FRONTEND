@@ -1,0 +1,12 @@
+.back-home-button {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-home-button:hover {
+    background-color: #1890ff;
+    color: white; 
+    border-color: #1890ff;
+}

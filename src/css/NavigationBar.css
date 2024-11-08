@@ -1,0 +1,33 @@
+.nav-bar {
+  background-color: #D71313; 
+  border-bottom: 2px solid #0e0c0c;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-bar .ant-menu {
+  background-color: #D71313;
+  line-height: 64px; 
+  border: none; 
+  display: flex; 
+  justify-content: center; 
+  padding: 0; 
+}
+
+.nav-bar .ant-menu-item {
+  text-align: center; 
+}
+
+.nav-bar .nav-text {
+  color: #EEEDED; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: color 0.3s, font-weight 0.3s; 
+  display: block; 
+}
+
+.nav-bar .ant-menu-item:hover,
+.nav-bar .ant-menu-item-selected {
+  color: #F0DE36; 
+}
